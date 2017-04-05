@@ -1,0 +1,133 @@
+* {
+  text-align: center;
+}
+
+body {
+  height: 720px;
+  width: 100%;
+}
+
+.container {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-image: url('https://learnvest.global.ssl.fastly.net/wp-content/uploads/2014/07/NYC-budget.jpg');
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 15%;
+}
+
+footer {
+  height: 120px;
+  background-color: #464F51;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+
+footer a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer img {
+  display: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  max-height: 70%;
+  padding: 0 10px;
+  opacity: 0.8;
+}
+
+#email-icon {
+  max-height: 90%;
+  max-width: 90%;
+}
+
+#linkedin-icon {
+  max-height: 55%;
+  max-width: 55%;
+}
+
+@media (max-width:1200px) {
+  footer {
+    margin-top: 28%;
+  }
+}
+
+@media (max-width: 1110px) {
+  footer {
+    margin-top: 32%;
+  }
+}
+
+@media (max-width:1050px) {
+  footer {
+    margin-top: 35%;
+  }
+}
+
+@media (max-width:975px) {
+  footer {
+    margin-top: 37%;
+  }
+}
+
+
+@media (max-width:925px) {
+  footer {
+    margin-top: 39%;
+  }
+}
+
+@media (max-width:900px) {
+  footer {
+    margin-top: 41%;
+  }
+}
+
+@media (max-width:850px) {
+  footer {
+    margin-top: 45%;
+  }
+}
+
+@media (max-width:800px) {
+  footer {
+    margin-top: 50%;
+  }
+}
+
+@media (max-width:750px) {
+  footer {
+    margin-top: 53%;
+  }
+}
+@media (max-width:700px) {
+  footer {
+    margin-top: 55%;
+  }
+}
+@media (max-width:700px) {
+  footer {
+    margin-top: 58%;
+  }
+}
+@media (max-width:650px) {
+  footer {
+    margin-top: 60%;
+  }
+}
